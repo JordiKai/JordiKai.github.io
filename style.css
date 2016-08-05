@@ -1,7 +1,7 @@
 /* Layout */
 
 body {
-    font:normal 12px/1.6em Arial, Helvetica, sans-serif;
+  font:normal 12px/1.6em Arial, Helvetica, sans-serif;
 	color:#2a3845;
 	margin:0;
 	padding:0;
@@ -22,11 +22,7 @@ p {
 
 #header {
 	margin:0 1px;
-}
-
-#bg {
-	height:36px;
-	background:url('http://img840.imageshack.us/img840/9886/87926428.gif') repeat-x;
+  background: #FFFAF0;
 }
 
 #main-content {
@@ -56,7 +52,7 @@ p {
 }
 
 #footer {
-	background:#f7f7f7;
+	background:#D3D3D3;
 	border-top:1px solid #f0e9eb;
 	padding:10px 15px;
 	clear:both;
@@ -113,14 +109,15 @@ ul {
 }
 
 #nav {
-	background:#06a;
+	background:#778899;
 	padding:10px 20px;
 	text-align:right;
-	color:#f6dde3;
+	color:#F8F8FF;
 }
 
 #nav a {
 	margin: 0 10px;
+  color:#F8F8FF;
 }
 
 #nav a:visited, #nav a:link {
@@ -130,11 +127,12 @@ ul {
 
 #nav a:hover {
 	text-decoration:underline;
-	color:#f6dde3;
+	color:#F8F8FF;
 }
 
 #logo {
 	margin-bottom:20px;
 	font:normal 18px Georgia, serif;
-	color:#fa7393;
+  font-weight: bold;
+	color:#B22222;
 }
