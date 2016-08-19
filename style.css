@@ -1,16 +1,11 @@
 /* Layout */
 
 body {
-    font:normal 12px/1.6em Arial, Helvetica, sans-serif;
-    color:#2a3845;
-    margin:0;
-    padding:0;
-    background:#FFFFFF;
-}
-
-p {
-	margin:0;
-	padding:0;
+    font:           normal 12px Georgia, serif;
+    color:          #2a3845;
+    margin:         0;
+    padding-left:   0px;
+    background:     #FFFFFF;
 }
 
 #wrapper {
@@ -30,37 +25,13 @@ p {
     border:50px solid #990000;
 }
 
-#main-content {
-	margin:0 auto;
-}
-
-#main-image {
-	text-align:center;
-}
-
-#left-column {
-	width:300px;
-	padding:0 30px 30px;
-	float:left;
-}
-
-#right-column {
-	width:270px;
-	float:right;
-}
-
-.sidebar {
-	width:218px;
-	margin:0 auto;
-	padding:10px 25px;
-	background:url('http://img404.imageshack.us/img404/3092/shadowh.jpg') no-repeat top;
-}
-
-#footer {
-	background:#D3D3D3;
-	border-top:1px solid #f0e9eb;
-	padding:10px 15px;
-	clear:both;
+/* Used for buttons */
+.footer {
+   position:    fixed;
+   left:        50%;
+   bottom:      0px;
+   height:      50px;
+   width:       100%;
 }
 
 /* Global Styling */
@@ -77,42 +48,34 @@ a:hover {
 	background:none;
 }
 
+/* Used for Name Header of page*/
 h1 {
 	color:              white;
 	margin:             0px;
 	padding:            0px;
 	background-color:   #990000;
-	font:               bold 40px Georgiea, serif;
+	font:               bold 40px Georgia, serif;
 	text-align:         center;
 }
 
+/* Used for section headers*/
 h2 {
-	color:#7a2e40;
-	margin:20px 0 10px;
-	padding-bottom:10px;
-	font:normal 17px Georgia, serif;
-	border-bottom:1px solid #efece7;
+	color:              #7a2e40;
+	margin:             20px 0 10px;
+	padding-left:       40px;
+	padding-bottom:     10px;
+	border-bottom:      1px solid #efece7;
+	font:               bold 20px Georgia, serif;
+	text-align:         left;
 }
 
+/* Used for topic headers*/
 h3 {
-	color:#7a2e40;
-	margin:10px 0;
-	padding-bottom:10px;
-	font:bold 14px Arial, Helvetica, sans-serif;
-	border-bottom:1px solid #F8F8FF;
+	color:              #7a2e40;
+	margin:             10px 0;
+	padding-left:       65px;
+	font:               bold 14px Georgia, serif;
 }
-
-ul {
-	padding:0;
-	margin:0 0 0 17px;
-	list-style:square url('http://img525.imageshack.us/img525/1890/bulletr.gif');
-}
-
-/*.box {
-	background:#f7f7f7;
-	border:1px solid #f0e9eb;
-	padding:15px;
-}*/
 
 #nav {
 	background:#778899;
@@ -133,11 +96,4 @@ ul {
 #nav a:hover {
 	text-decoration:underline;
 	color:#f6dde3;
-}
-
-#logo {
-	margin-bottom:20px;
-	font:normal 18px Georgia, serif;
-  font-weight: bold;
-	color:#B22222;
 }
