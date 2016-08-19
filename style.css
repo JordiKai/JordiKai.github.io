@@ -23,6 +23,7 @@ body {
 /* Used for Name Header of page*/
 .boxHeader{
     border:50px solid #990000;
+    background-image: url("./photos/backdrop.jpg");
 }
 
 /* Used for buttons */
