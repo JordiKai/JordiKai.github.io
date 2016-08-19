@@ -1,11 +1,11 @@
 /* Layout */
 
 body {
-  font:normal 12px/1.6em Arial, Helvetica, sans-serif;
-	color:#2a3845;
-	margin:0;
-	padding:0;
-	background:#FFFFFF;
+    font:normal 12px/1.6em Arial, Helvetica, sans-serif;
+    color:#2a3845;
+    margin:0;
+    padding:0;
+    background:#FFFFFF;
 }
 
 p {
@@ -21,8 +21,13 @@ p {
 }
 
 #header {
-	margin:0 1px;
-  background: #FFFAF0;
+    margin:0 1px;
+    background: #FFFAF0;
+}
+
+/* Used for Name Header of page*/
+.boxHeader{
+    border:50px solid #990000;
 }
 
 #main-content {
@@ -73,11 +78,12 @@ a:hover {
 }
 
 h1 {
-	color:#7a2e40;
-	margin:0 0 10px;
-	padding-bottom:10px;
-	font:normal 17px Georgia, serif;
-	border-bottom:1px solid #efece7;
+	color:              white;
+	margin:             0px;
+	padding:            0px;
+	background-color:   #990000;
+	font:               bold 40px Georgiea, serif;
+	text-align:         center;
 }
 
 h2 {
@@ -102,11 +108,11 @@ ul {
 	list-style:square url('http://img525.imageshack.us/img525/1890/bulletr.gif');
 }
 
-.box {
+/*.box {
 	background:#f7f7f7;
 	border:1px solid #f0e9eb;
 	padding:15px;
-}
+}*/
 
 #nav {
 	background:#778899;
